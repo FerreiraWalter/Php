@@ -1,12 +1,23 @@
 <?php include("cabecalho.php") ?>
-            <h1>Formulário produto</h1>
-            <form action="adiciona-produto.php" method="get">
-                <label for="nome">Nome: </label>
-                <input type="text" name="nome">
-                <label for="preco">Preço: </label>
-                <input type="number" name="preco">
+    <h1>Formulário produto</h1>
+    <form action="adiciona-produto.php" method="get">
+        <table class="table">
+            <tr>
+                <td>Nome:</td>
+                <td><input class="form-control" type="text" name="nome"></td>
+            </tr>
 
-                <button>Cadastrar</button>
+            <tr>
+                <td>Preço:</td>
+                <td><input class="form-control" type="number" name="preco"></td>
+            </tr>
 
-            </form>
+            <tr>
+                <td>
+                    <button class="btn btn-primary">Cadastrar</button>
+                </td>
+            </tr>
+        </table>
+
+    </form>
 <?php include("rodape.php") ?>
