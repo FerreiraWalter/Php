@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <nav class="nav navbar navbar-inverse navbar-fixed-top">
+    <nav class="nav navbar-nav navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="central.php">Minha Loja</a>
@@ -18,6 +18,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="produto-formulario.php">Adicionar Prouto</a></li>
                     <li><a href="sobre.php">Sobre</a></li>
+                    <li><a href="produto-lista.php">Produtos</a></li>
                 </ul>
             </div>
         </div>
