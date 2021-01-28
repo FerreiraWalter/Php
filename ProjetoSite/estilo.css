@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("teste.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    display: block;
+    height: 35px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(176, 112, 143);
+    font-size: 14pt;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.01);
+    color: rgb(82, 54, 94);
+    outline: none;
+}
+
+div#corpo-form {
+    width: 420px;
+    margin: 120px auto 0px auto;
+}
+
+div#corpo-form h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color:rgb(82, 54, 94);
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type=submit] {
+    background-color: rgb(45, 37, 58);
+    width: 420px;
+    border: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+::-webkit-input-placeholder {
+    color:rgb(10, 50, 113);
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: white;  
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+ }
+ 
+ :-ms-input-placeholder {  
+    color: white;  
+ }
