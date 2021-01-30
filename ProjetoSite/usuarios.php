@@ -27,7 +27,7 @@ Class Usuario {
         }
         else {
             //Caso não, cadastrar
-            $sql = $pdo->prepare("INSERT INTO usuarios (nome, telefone, email, senha) VALUES ('{$nome}', '{$telefone}', '{$email}', '{$senha}')");
+            $sql = $pdo->prepare("INSERT INTO usuarios (nome, telefone, email, senha) VALUES ('{$nome}', '{$telefone}', '{$email}', md5('{$senha}'))");
             $sql->execute();
             return true; //Tudo Ok
         }
