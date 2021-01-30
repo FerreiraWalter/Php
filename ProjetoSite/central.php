@@ -1,3 +1,8 @@
+<?php
+    require_once 'usuarios.php';
+    $u = new Usuario;
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -20,3 +25,9 @@
     </div>
 </body>
 </html>
+
+<?php
+
+    if(isset($_POST['email'])) {
+
+    }
