@@ -18,6 +18,5 @@ if(isset($_POST['nome']) && isset($_POST['email'])) {
     $mail->Host= 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'wferreiraramosjunior@gmail.com';
-    $mail->P
 
 }
