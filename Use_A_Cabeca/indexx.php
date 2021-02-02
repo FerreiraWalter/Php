@@ -76,8 +76,8 @@
                 <img class="animal" src="salamandra.png" alt="">
                 <br>
                 <h3>Do you look like this?</h3>
-                <input type="radio" name="yes" value="Yes"> Yes
-                <input type="radio" name="no" value="No"> No
+                <input type="radio"> Yes
+                <input type="radio"> No
                 <br><br>
                 <input class="Monkey" type="submit" value="SUBMIT">
 
