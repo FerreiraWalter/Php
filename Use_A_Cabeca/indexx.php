@@ -61,7 +61,7 @@
         <div>
             <img src="LogoAlien.png" alt="">
             <h1>Send Me a Message</h1>
-            <form action="#" method="POST">
+            <form action="sendmsg.php" method="POST">
 
                 <input type="text" name="nome" placeholder="Your Name">
                 <input type="email" name="email" placeholder="Your Email">
