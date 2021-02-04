@@ -8,7 +8,7 @@
         $dbc = mysqli_connect("localhost", "root", "", "msget");
         $query = "INSERT INTO pessoas(nome, email, msg) VALUES('{$nome}', '{$email}', '{$msg}')";
         
-        $resultado = mysqli_query($dbc, $query) or die('Erro no DataBase');
+        $resultado = mysqli_query($dbc, $query) or die('YOUR MESSAGE WAS NOT SENT');
 
         mysqli_close($dbc);
 
