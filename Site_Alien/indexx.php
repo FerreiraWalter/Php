@@ -13,8 +13,6 @@
             font-family: Arial;
         }
 
-        
-
         img {
             width: 100px;
             padding: 10px 0px 5px 0px;

@@ -1,0 +1,56 @@
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        body {
+            background-color: #E1DDB0;
+        }
+
+        .botao{
+            display: inline-block;
+            border: solid 2px #DBD269;
+            border-radius: 30px;
+            padding: 70px;
+            margin: 141px 0px 200px 0px;
+            background-color: #5C5A48;
+        }
+    
+        button, input{
+            border: solid 3px #C7C061;
+            border-radius: 30px;
+            padding: 10px;
+            margin: 10px;
+            outline: none;
+            background-color: rgba(255,255,255,0.01);
+            color: #DBD46B;
+        }
+
+        
+
+        h2 {
+            padding: 10px;
+        }
+
+        input {
+            color: #5C5A48;
+            margin: 5px;
+        }
+
+        button:hover {
+            background-color: #DBD269;
+            transform: scale(1.05);
+            color: white;
+        }
+
+        h1 {
+            color: #DBD269;
+            background-color: #5C582C;
+            padding: 20px 0px 20px 0px;
+        }
+
+        footer {
+            background-color: #5C582C;
+            color: #DBD269;
+        }
