@@ -30,6 +30,7 @@
         $conexao = mysqli_connect("localhost", "root", "", "MakeMeElvis");
 
         $sql = mysqli_query($conexao, "SELECT * FROM cadastros WHERE email = '{$email}'") or print mysql_error();
+        
         if(mysqli_num_rows($sql) > 0) {
             echo "ESSE EMAIL JÁ FOI REGISTRADO";
         } else {
