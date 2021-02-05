@@ -34,8 +34,12 @@
         if(mysqli_num_rows($sql) > 0) {
             echo "ESSE EMAIL JÁ FOI REGISTRADO";
         } else {
-            escreverSQL($conexao, $priNome, $ultNome, $email);
-            echo "CADASTRO FEITO COM SUCESSO";
-        }
 
+            if(!empty($_POST['priNome']) && !empty($_POST['ultNome']) && !empty($_POST['email'])) {
+                escreverSQL($conexao, $priNome, $ultNome, $email);
+                echo "CADASTRO FEITO COM SUCESSO";
+            } else {
+                echo "ESTÁ FALTANDO INFORMAÇÃO";
+            }
+        }
     }

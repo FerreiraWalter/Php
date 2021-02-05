@@ -3,7 +3,7 @@
 ?>
         <div class="botao">
             <img src="Elvis.png" alt="" width="100px">
-            <form action="">
+            <form action="enviarEmail.php">
                 <button>Enviar Email</button>
             </form>
             <br>
