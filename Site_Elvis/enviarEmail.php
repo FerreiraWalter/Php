@@ -22,3 +22,5 @@
         $query = "SELECT * FROM cadastros";
 
     }
+
+    
