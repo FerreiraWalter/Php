@@ -10,6 +10,10 @@
             <form action="cadastro.php">
                 <button>Cadastrar</button>
             </form>
+            <form action="removeremail.php">
+                <button>Remover</button>
+            </form>
+
         </div>
 <?php
     include("footer.php");
