@@ -4,7 +4,6 @@
 
 <form action="#" method="POST">
     <h2>Enviar Email</h2>
-    <input type="email" name="email" placeholder = "Your Email">
     <input type="text" name="subject" placeholder = "Subject">
     <br>
     <textarea class="funcionapls" name="texto" id="" cols="48" rows="20"></textarea>
