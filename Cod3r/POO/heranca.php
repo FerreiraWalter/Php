@@ -4,8 +4,8 @@ class Pessoa {
     public $nome;
     public $idade;
 
-    function __construct($novo_nome, $idade) {
-        $this->nome = $novo_nome;
+    function __construct($nome, $idade) {
+        $this->nome = $nome;
         $this->idade = $idade;
         echo "Pessoa Criada! <br>";
     }
