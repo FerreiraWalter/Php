@@ -5,7 +5,7 @@ class Cliente {
     public $idade = '18';
 
     public function apresentar() {
-        echo "Nome: {$this->$nome}, Idade: {$this->$idade}";
+        echo "Nome: {$this->nome}, Idade: {$this->idade} <br/>";
     }
 }
 
