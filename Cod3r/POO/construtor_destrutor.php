@@ -3,7 +3,7 @@ class Pessoa {
     public $nome;
     public $idade;
 
-    function __contruct($novo_nome, $idade=18) {
+    function __construct($novo_nome, $idade=18) {
         echo 'Construtor Invocado! <br>';
         $this->nome = $novo_nome;
         $this->idade = $idade;
@@ -14,7 +14,7 @@ class Pessoa {
     }
 
     public function apresentar() {
-        echo "{$this->nome}, {$this->idade} anos <br>";
+        echo "{$this->nome}, {$this->idade} anos <br />";
     }
 }
 
