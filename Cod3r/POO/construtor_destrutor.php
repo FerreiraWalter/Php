@@ -10,7 +10,7 @@ class Pessoa {
     }
 
     function __destruct() {
-        echo 'E morreu! <br>';
+        return 'E morreu! <br>';
     }
 
     public function apresentar() {
